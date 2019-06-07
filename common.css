@@ -1,0 +1,247 @@
+body {
+    font-family:  'Montserrat',  sans-serif;
+     color: #343747;
+    margin: 0;
+}
+
+footer {
+    font-size: 15px;
+    background: #F4F5F8;
+    color: #93959E;
+    padding: 50px;
+}
+
+.UIFooterContentContainer {
+    margin: auto auto;
+    max-width: 1100px;
+}
+
+.UIPageHeader {
+    background: #36465E;
+}
+
+.UIContentContainer {
+}
+
+.stack_left,  .stack_middle,  .stack_right {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family:  'Montserrat',  sans-serif;
+     font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family:  'Montserrat',  sans-serif;
+     font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family:  'Montserrat',  sans-serif;
+     font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family:  'Montserrat',  sans-serif;
+     font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 100px;
+}
+
+p {
+    font-size: 19px;
+     font-weight: 300;
+}
+
+a {
+    color: #95A6A6;
+    text-decoration: none;
+}
+
+.left {
+    text-align: left;
+}
+
+*::selection {
+    background: #35465c;
+    color: white;
+}
+
+.widehide {
+    display: none;
+}
+
+.noselect {
+    -webkit-user-drag: none;
+    -webkit-user-modify: none;
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-input: none;
+    -moz-user-modify: none;
+    -moz-user-select: none;
+}
+
+.nodecor {
+    text-decoration: none;
+    color: #343747;
+}
+
+@media screen and (max-width:700px) {
+    .stack_left {
+    display: table-header-group;
+}
+
+.stack_right {
+    display: table-footer-group;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.compacthide {
+    display: none;
+}
+
+.widehide {
+    display: inherit;
+}
+
+.compactpad {
+    padding: 0px 50px;
+}
+
+}
+.wrap {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button {
+    top: -9px;
+    height: 40px;
+    margin: 0;
+    left: 6.5px;
+    margin: 0.3em;
+    padding: 1.1em 1em;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    /*box-shadow: 2px 0 0 0 #46d466,  -2px 0 0 0 #46d466,  0 2px 4px 0 rgba(0, 0, 0, .1),  0 2px 20px 0 rgba(70, 212, 102, .7);*/
+    box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-weight: 600px;
+}
+
+.button1 {
+    top: 0px;
+    left: -5px;
+    display: inline-block;
+    margin: 0.3em;
+    padding: 1.1em 1em;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    /*box-shadow: 2px 0 0 0 #46d466,  -2px 0 0 0 #46d466,  0 2px 4px 0 rgba(0, 0, 0, .1),  0 2px 20px 0 rgba(70, 212, 102, .7);*/
+    box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+.button:hover {
+    /*box-shadow: 2px 0 0 0 #46d466,  -2px 0 0 0 #46d466,  0 2px 10px 0 rgba(0, 0, 0, .1),  0 8px 45px 0 rgba(70, 212, 102, .7);*/
+  color: #39465C;
+  background-color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.button1:hover {
+    /*box-shadow: 2px 0 0 0 #46d466,  -2px 0 0 0 #46d466,  0 2px 10px 0 rgba(0, 0, 0, .1),  0 8px 45px 0 rgba(70, 212, 102, .7);*/
+      color: #39465C;
+  background-color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.green {
+    background-color: #39465C;
+    color: white;
+}
+
+.ripple {
+    position: absolute;
+    background: rgba(0, 0, 0, .25);
+    border-radius: 100%;
+    transform: scale(0.2);
+    opacity: 0;
+    pointer-events: none;
+    -webkit-animation: ripple .75s ease-out;
+    -moz-animation: ripple .75s ease-out;
+    animation: ripple .75s ease-out;
+}
+
+@-webkit-keyframes ripple {
+    from {
+    opacity: 1;
+}
+
+to {
+    transform: scale(2);
+    opacity: 0;
+}
+
+}
+@-moz-keyframes ripple {
+    from {
+    opacity: 1;
+}
+
+to {
+    transform: scale(2);
+    opacity: 0;
+}
+
+}
+@keyframes ripple {
+    from {
+    opacity: 1;
+}
+
+to {
+    transform: scale(2);
+    opacity: 0;
+}
+
+}
