@@ -260,6 +260,25 @@ footer p {
 	
 }
 
+#page_header_accessory_left {
+		
+		width: 20%;
+		max-width: 270px;
+		position: absolute;
+		left: 0;
+		
+}
+
+#page_header_accessory_right {
+	
+	width: 20%;
+	max-width: 178px;
+	
+	position: absolute;
+	right: 0;
+	
+}
+
 @media (hover: hover) {
   
   nav ul li a:not(.selected):hover:after {
