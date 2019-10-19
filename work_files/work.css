@@ -34,7 +34,7 @@
 	padding: 50px;
 	box-sizing: border-box;
 	
-	color: #343747;
+	color: #36465E;
 	background-color: #F9F9F9;
 	background-repeat: no-repeat;
 	background-size: 90%;
@@ -49,19 +49,15 @@
 }
 
 #apps-content-section {
-	background-image: url('/resources/native-background.svg');
+	background-image: url('native-background.svg');
 }
 
 #web-content-section {
-	background-image: url('/resources/webdev-background.svg');
-}
-
-#dribbble-content-section {
-	background-image: url('/resources/dribbble-background.svg');
+	background-image: url('webdev-background.svg');
 }
 
 #github-content-section {
-	background-image: url('/resources/github-background.svg');
+	background-image: url('github-background.svg');
 }
 
 footer {

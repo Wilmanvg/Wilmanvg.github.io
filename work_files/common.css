@@ -32,8 +32,7 @@ body {
 }
 
 .page-header p {
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica", Arial, sans-serif;
-	font-size: 30px;
+	font-family:  'Montserrat',  sans-serif;	font-size: 30px;
 	font-weight: 200;
 	letter-spacing: 1px;
 }
@@ -102,19 +101,43 @@ nav ul li a.selected:after {
 /* Text Styles */
 
 h1 {
-	
+	font-family:  'Montserrat',  sans-serif;
+	 font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 50px;
+}
+
+h2 {
+	font-family:  'Montserrat',  sans-serif;
+	 font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-family:  'Montserrat',  sans-serif;
+	 font-size: 22px;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-family:  'Montserrat',  sans-serif;
+	 font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 100px;
+}
+
+p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.layout-row h1 {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica", "Arial", sans-serif;
 	font-weight: 200;
 	letter-spacing: 1px;
 	font-size: 50px;
-	
-}
-
-p {
-
-	font-size: 21px;
-	font-weight: 300;
-	
 }
 
 a {
@@ -131,7 +154,7 @@ a {
 }
 
 .disclosure {
-	color: #E06841;
+	color: #36465E;
 	transition: background 0.2s ease-out, border-radius 0.2s ease-out, box-shadow 0.2s ease-out, padding 0.2s ease-out;
 }
 
@@ -147,7 +170,7 @@ a {
 	height: 12px;
     margin-left: 5px;
 	   
-	background-image: url('/resources/disclosure.svg');
+	background-image: url('disclosure.svg');
     background-repeat: no-repeat;
     background-size: 7px 11px;
     background-position: right bottom;
@@ -157,7 +180,7 @@ a {
 }
 
 .disclosure.light:after {
-	background-image: url('/resources/disclosure-light.svg');
+	background-image: url('disclosure-light.svg');
 }
 
 .disclosure:hover {
@@ -176,7 +199,7 @@ a {
 }
 
 .disclosure.light:hover:after {
-	background-image: url('/resources/disclosure.svg');
+	background-image: url('disclosure.svg');
 }
 
 .disclosure:active {
